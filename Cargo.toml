@@ -1,0 +1,15 @@
+[package]
+name = "nostrd"
+version = "0.0.1"
+authors = ["pythcoiner"]
+description = "Utility to run a nostr relay in integration tests"
+repository = "https://github.com/pythcoiner/nostrd"
+license = "MIT"
+edition = "2018"
+categories = ["development-tools::testing"]
+
+[dependencies]
+log = { version = "0.4" }
+temp-dir = "0.1.14"
+nix = {version = "0.29.0", features = ["signal"]}
+
